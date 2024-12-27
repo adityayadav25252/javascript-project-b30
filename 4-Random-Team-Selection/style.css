@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy extrabold;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center ;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  gap: 20px;
+  width: 500px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: rgb(124, 152, 152);
+}
+
+button{
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+}

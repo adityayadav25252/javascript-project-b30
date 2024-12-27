@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy extrabold;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(120, 129, 129);
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main{
+  padding-top: 60px;
+  width: 500px;
+  height: 600px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.circle{
+  border-radius: 40% 40% 40% 40%;
+  width: 150px;
+  height: 200px;
+  background-color: rgb(41, 38, 38);
+  /* box-shadow: 0 0 80px 50px rgba(255, 255, 255, 0.5); Glow effect  */
+}
+
+.box{
+  width: 30px;
+  background-color: rgba(31, 29, 27, 0.515);
+  height: 80px;
+  margin-bottom: 90px;
+}
+button{
+  padding: 10px 20px;
+  font-size: 20px;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy light;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.main{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    gap: 20px;
+    height: 100vh; /* Full viewport height */
+}
+
+
+.card {
+    background-color: white;
+    padding: 20px;
+    gap: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+
+}
+h4{
+        
+    font-size: 20px;
+}
+h5{
+    font-size: 30px;
+}

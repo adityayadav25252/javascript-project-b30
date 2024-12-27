@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy light;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor:none;
+}
+#cursor{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+}
+h1{
+  color: white;
+  font-size: 110px;
+  mix-blend-mode: difference;
+  white-space: nowrap;
+  font-weight: 700;
+}
